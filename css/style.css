@@ -125,3 +125,42 @@ header img[alt="main-image"] {
 	margin-top: 45%;
 	padding: 0 145px;
 }
+
+/* CSS for specs section */
+.specs {
+	padding: 145px 145px;
+	background-color: #0f0f10;
+}
+
+.specs img[alt="specsLogo"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.specsLogo-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	column-gap: 80px;
+	color: #fdfdfe;
+	margin: 50px 0;
+}
+
+.all-specs {
+	margin-bottom: 25px;
+}
+
+.all-specs h2 {
+	font-size: 19px;
+}
+
+.all-specs p {
+	font-size: 14px;
+	color: #a6a9ab;
+}
+
+.top-bottom-specs {
+	margin-left: 30px;
+}
