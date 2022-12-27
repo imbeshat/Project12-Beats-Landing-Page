@@ -53,3 +53,65 @@ header {
 	background-color: #1e1e21;
 	border-radius: 10px;
 }
+
+header img[alt="main-image"] {
+	position: absolute;
+	clip-path: inset(20% 0 0 0);
+	top: -150px;
+	left: 220px;
+}
+
+/* CSS for hero section */
+.hero-section {
+	position: relative;
+}
+
+.text-btn-section {
+	position: absolute;
+	right: 24%;
+}
+
+.text-btn-section img[alt="onEar"] {
+	margin-left: 60px;
+}
+
+.text-btn-section h1 {
+	font-size: 65px;
+	margin-bottom: 40px;
+}
+
+.text-btn-section h4 {
+	font-size: 19px;
+	color: #e2e2e3;
+}
+
+.text-btn-section p {
+	color: #8d8e91;
+	margin: 25px 0;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+.button-div {
+	position: relative;
+	margin-top: 50px;
+}
+
+.btn-addToBag {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	background-color: #1e1e21;
+	border: none;
+	padding: 20px 25px;
+	color: #c3c3c4;
+	font-size: 19px;
+	border-radius: 10px;
+}
+
+.btn-addToBag span {
+	color: #fff;
+	font-size: 21px;
+}
