@@ -164,3 +164,45 @@ header img[alt="main-image"] {
 .top-bottom-specs {
 	margin-left: 30px;
 }
+
+/* CSS for case section */
+.case {
+	padding: 145px 145px;
+	background-color: #0f0f10;
+}
+
+.case img[alt="caseLogo"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.caseLogo-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	column-gap: 80px;
+	color: #b1b4b6;
+	margin: 50px 0;
+}
+
+.caseLogo-section div p {
+	font-size: 19px;
+	line-height: 35px;
+}
+
+.more-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	column-gap: 20px;
+	align-items: center;
+	color: #dcdcdc;
+	background-color: #1e1e21;
+	padding: 20px 30px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: none;
+	margin-top: 50px;
+}
