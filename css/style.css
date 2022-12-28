@@ -308,3 +308,20 @@ header img[alt="main-image"] {
 	padding: 3px 5px;
 	border-radius: 7px;
 }
+
+/* CSS for footer section */
+footer {
+	background-color: #0f0f10;
+	padding: 100px 0 130px 145px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	column-gap: 140px;
+}
