@@ -128,7 +128,7 @@ header img[alt="main-image"] {
 
 /* CSS for specs section */
 .specs {
-	padding: 145px 145px;
+	padding: 145px 145px 60px 145px;
 	background-color: #0f0f10;
 }
 
@@ -167,7 +167,7 @@ header img[alt="main-image"] {
 
 /* CSS for case section */
 .case {
-	padding: 145px 145px;
+	padding: 0 145px;
 	background-color: #0f0f10;
 }
 
