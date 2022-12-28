@@ -52,6 +52,7 @@ header {
 	padding: 15px 50px;
 	background-color: #1e1e21;
 	border-radius: 10px;
+	border: none;
 }
 
 header img[alt="main-image"] {
@@ -123,7 +124,8 @@ header img[alt="main-image"] {
 	justify-content: space-evenly;
 	align-items: center;
 	margin-top: 45%;
-	padding: 0 145px;
+	padding: 10px 145px;
+	background-color: #0f0f10;
 }
 
 /* CSS for specs section */
@@ -167,7 +169,7 @@ header img[alt="main-image"] {
 
 /* CSS for case section */
 .case {
-	padding: 0 145px;
+	padding: 10px 145px;
 	background-color: #0f0f10;
 }
 
@@ -205,4 +207,48 @@ header img[alt="main-image"] {
 	border-radius: 10px;
 	border: none;
 	margin-top: 50px;
+}
+
+/* CSS for buy now section */
+.buy-now {
+	padding: 80px 145px;
+	background-color: #0f0f10;
+}
+
+.buy-now-div {
+	background-color: #181a1b;
+	color: #fff;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	column-gap: 80px;
+	padding: 50px 50px;
+	margin: 0 70px;
+}
+
+.buy-now-div div h1 {
+	font-size: 30px;
+}
+
+.buy-now-div div p {
+	color: #adb1b2;
+	margin: 20px 0;
+	font-size: 17px;
+}
+
+.buy-now-div div button {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	column-gap: 18px;
+	align-items: center;
+	color: #fff;
+	background-color: #000000;
+	padding: 20px 30px;
+	font-size: 17px;
+	border-radius: 10px;
+	border: none;
+	margin-top: 30px;
 }
